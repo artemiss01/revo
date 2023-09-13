@@ -2,821 +2,470 @@
 <html lang="en">
 
 <head>
-	<title>Главная</title>
+	<title>Revo</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230913120830">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230714152739">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-	<div class="preloader">
-		<div type="button" class="btn-action">View <span>Surf</span></div>
-	</div>
 	<div class="wrapper">
-		<header data-fullscreen id="header" class="header">
-			<div data-simplebar class="header__column">
-				<div class="header__logo btn-action">Go-<span>surf</span></div>
-				<div class="header__menu menu">
+		<header class="header">
+			<div class="header__row row-header">
+				<div class="row-header__slider">
+					<div class="row-header__swiper">
+						<div class="row-header__slide slide-header">
+							<div class="slide-header__info">
+								<div class="slide-header__logo">
+									<img src="img/icons/lazyload.png" data-src="img/icons/revo_logo.svg" alt="image logo">
+								</div>
+								<h1 class="slide-header__title">YOUR <span>PERSONALIZED</span> COFFEE</h1>
+							</div>
+							<div class="slide-header__img-ibg">
+								<picture><source data-srcset="img/header-slider/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  src="img/icons/lazyload.png" data-src="img/header-slider/01.jpg" alt="slider image"></picture>
+								<!-- <div class="swiper-lazy-preloader"></div> -->
+								<button type="button" class="slide-header__btn-play _icon-triangle" aria-label="button play video"></button>
+							</div>
+						</div>
+						<div class="row-header__slide slide-header">
+							<div class="slide-header__info">
+								<div class="slide-header__logo">
+									<img src="img/icons/lazyload.png" data-src="img/icons/revo_logo.svg" alt="image logo">
+								</div>
+								<h1 class="slide-header__title">YOUR <span>PERSONALIZED</span> COFFEE</h1>
+							</div>
+							<div class="slide-header__img-ibg">
+								<picture><source data-srcset="img/header-slider/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  src="img/icons/lazyload.png" data-src="img/header-slider/01.jpg" alt="slider image"></picture>
+								<button type="button" class="slide-header__btn-play _icon-triangle" aria-label="button play video"></button>
+							</div>
+						</div>
+						<div class="row-header__slide slide-header">
+							<div class="slide-header__info">
+								<div class="slide-header__logo">
+									<img src="img/icons/lazyload.png" data-src="img/icons/revo_logo.svg" alt="image logo">
+								</div>
+								<h1 class="slide-header__title">YOUR <span>PERSONALIZED</span> COFFEE</h1>
+							</div>
+							<div class="slide-header__img-ibg">
+								<picture><source data-srcset="img/header-slider/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  src="img/icons/lazyload.png" data-src="img/header-slider/01.jpg" alt="slider image"></picture>
+								<button type="button" class="slide-header__btn-play _icon-triangle" aria-label="button play video"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row-header__menu menu">
+					<button type="button" class="row-header__basket basket _icon-basket">
+						<span class="basket__decor">
+							<span class="basket__value">2</span>
+						</span>
+					</button>
 
+					<h3 class="menu__title">TRANG CHỦ</h3>
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item">
-								<a data-goto=".surf" href="#" class="menu__link">Surf
-									<img src="img/icons/icon-menu-surf.svg" alt="img">
-								</a>
-							</li>
-							<li class="menu__item">
-								<a data-goto=".page__travel" href="#" class="menu__link">Travel
-									<img src="img/icons/icon-bus.svg" alt="img">
-								</a>
-							</li>
-							<li class="menu__item">
-								<a data-goto=".page__sleep" href="#" class="menu__link">Sleep
-									<img src="img/icons/sleep.svg" alt="img">
-								</a>
-							</li>
-							<li class="menu__item">
-								<a data-goto=".shop" href="#" class="menu__link menu__link_shop">Shop
-									<img src="img/icons/surfboard.svg" alt="img">
-								</a>
-							</li>
+							<li data-goto=".cofee-choose" class="menu__item"><a href="#" class="menu__link">COFFEE</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">PHIN MẠ MÀU</a></li>
+							<li data-goto=".combo" class="menu__item"><a href="#" class="menu__link">COMBO PHIN PHÊ</a></li>
+							<li data-goto=".tabs-page" class="menu__item"><a href="#" class="menu__link">GIFTSET</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">LIÊN HỆ</a></li>
 						</ul>
 					</nav>
 				</div>
-				<button type="button" class="header__btn-search" aria aria-label="button open search"></button>
-				<div class="header__calendar calendar">
-					<div class="calendar__day">20</div>
-					<div class="calendar__data">
-						<div class="calendar__month">06</div>
-						<div class="calendar__yars">2018</div>
-					</div>
-				</div>
-				<div class="header__location _icon-location">California</div>
+				<button data-da=".menu,480,3" type="button" class="menu__icon icon-menu"><span></span></button>
 			</div>
-			<button type="button" class="header__menu-icon icon-menu"><span></span></button>
 		</header>
 		<main class="page">
-			<h1 class="visually-hidden">surfing</h1>
-			<section data-fullscreen class="page__hero hero">
-				<div class="hero__big-txt txt-big-decor">go surf</div>
-				<div class="hero__slider">
-					<div class="hero__swiper">
-						<div class="hero__slide slide-hero">
-							<div class="slide-hero__img-ibg">
-								<picture><source srcset="img/slider/slider-hero/01.webp" type="image/webp"><img src="img/slider/slider-hero/01.jpg" loading="lazy" alt="img"></picture>
-							</div>
-							<div class="swiper-lazy-preloader"></div>
-							<div class="slide-hero__map-img-ibg">
-								<img src="img/icons/lazyload.png" data-src="img/other/Map01.svg" alt="img">
-							</div>
-							<div class="slide-hero__container">
-								<h2 class="slide-hero__title tile-large">North Shore</h2>
-								<div class="slide-hero__subtitle subtitle">surf</div>
-								<div class="slide-hero__block-title title-mini-block">
-									<div class="title-mini-block__subtitle subtitle">Condition</div>
-									<h3 class="title-mini-block__title-mini">Radical</h3>
-									<div class="title-mini-block__decor-arrow _icon-p-right"></div>
-								</div>
-							</div>
-						</div>
-						<div class="hero__slide slide-hero">
-							<div class="slide-hero__img-ibg">
-								<picture><source srcset="img/slider/slider-hero/02.webp" type="image/webp"><img src="img/slider/slider-hero/02.jpg" loading="lazy" alt="img"></picture>
-							</div>
-							<div class="swiper-lazy-preloader"></div>
-							<div class="slide-hero__map-img-ibg">
-								<img src="img/icons/lazyload.png" data-src="img/other/Map01.svg" alt="img">
-							</div>
-							<div class="slide-hero__container">
-								<h2 class="slide-hero__title tile-large">South Shore</h2>
-								<div class="slide-hero__subtitle subtitle">surf</div>
-								<div class="slide-hero__block-title title-mini-block">
-									<div class="title-mini-block__subtitle subtitle">Condition</div>
-									<h3 class="title-mini-block__title-mini">Radical</h3>
-									<div class="title-mini-block__decor-arrow _icon-p-right"></div>
-								</div>
-							</div>
-						</div>
-						<div class="hero__slide slide-hero">
-							<div class="slide-hero__img-ibg">
-								<picture><source srcset="img/slider/slider-hero/03.webp" type="image/webp"><img src="img/slider/slider-hero/03.png" loading="lazy" alt="img"></picture>
-							</div>
-							<div class="swiper-lazy-preloader"></div>
-							<div class="slide-hero__map-img-ibg">
-								<img src="img/icons/lazyload.png" data-src="img/other/Map01.svg" alt="img">
-							</div>
-							<div class="slide-hero__container">
-								<h2 class="slide-hero__title tile-large">West Shore</h2>
-								<div class="slide-hero__subtitle subtitle">surf</div>
-								<div class="slide-hero__block-title title-mini-block">
-									<div class="title-mini-block__subtitle subtitle">Condition</div>
-									<h3 class="title-mini-block__title-mini">Radical</h3>
-									<div class="title-mini-block__decor-arrow _icon-p-right"></div>
-								</div>
-							</div>
-						</div>
-						<div class="hero__slide slide-hero">
-							<div class="slide-hero__img-ibg">
-								<picture><source srcset="img/slider/slider-hero/04.webp" type="image/webp"><img src="img/slider/slider-hero/04.jpg" loading="lazy" alt="img"></picture>
-							</div>
-							<div class="swiper-lazy-preloader"></div>
-							<div class="slide-hero__map-img-ibg">
-								<img src="img/icons/lazyload.png" data-src="img/other/Map01.svg" alt="img">
-							</div>
-							<div class="slide-hero__container">
-								<h2 class="slide-hero__title tile-large">East Shore</h2>
-								<div class="slide-hero__subtitle subtitle">surf</div>
-								<div class="slide-hero__block-title title-mini-block">
-									<div class="title-mini-block__subtitle subtitle">Condition</div>
-									<h3 class="title-mini-block__title-mini">Radical</h3>
-									<div class="title-mini-block__decor-arrow _icon-p-right"></div>
-								</div>
-							</div>
-						</div>
+			<section class="page__build-cofee cofee-build">
+				<div class="cofee-build__container">
+					<div class="cofee-build__block-title title-block">
+						<p class="title-block__subtitle">Your Personalized Coffee</p>
+						<h2 class="title-block__title">COFFEE BUILD YOUR BASE</h2>
 					</div>
-					<div class="hero__slider-navigation navigation-swiper">
-						<button class="hero__btn-prev-slide navigation-swiper__prev _icon-p-left" aria-label="prev slide"></button>
-						<button class="hero__btn-next-slide navigation-swiper__next _icon-p-right" aria-label="next slide"></button>
-					</div>
-					<div class="hero__wrapper-control">
-						<button data-goto=".surf" type="button" class="hero__btn-scroll _icon-btn-scroll" aria-label="scroll button"></button>
-						<div class="swiper-pagination-hero "></div>
+					<div class="cofee-build__row">
+						<div class="cofee-build__item">
+							<div class="cofee-build__card card-build-cofee">
+								<img src="img/icons/ic-build-cofee-1.svg" alt="image">
+								<h5 class="card-build-cofee__title">Nguồn gốc</h5>
+								<p class="card-build-cofee__subtitle">Những hạt cà phê Arabica, Robusta đạt chất lượng theo tiêu chuẩn quốc tế.</p>
+							</div>
+						</div>
+						<div class="cofee-build__item">
+							<div class="cofee-build__card card-build-cofee">
+								<picture><source srcset="img/icons/ic-build-cofee-3.webp" type="image/webp"><img src="img/icons/ic-build-cofee-3.png" alt="image"></picture>
+								<h5 class="card-build-cofee__title">Chất ượng</h5>
+								<p class="card-build-cofee__subtitle">Từng một hạt cà phê là cả một quá trình tập trung cao độ của nghệ nhân cà phê.</p>
+							</div>
+						</div>
+						<div class="cofee-build__item">
+							<div class="cofee-build__card card-build-cofee">
+								<img src="img/icons/ic-build-cofee-2.svg" alt="image">
+								<h5 class="card-build-cofee__title">Các loại hạt</h5>
+								<p class="card-build-cofee__subtitle">70% chất lượng tách cà phê đến từ nguồn gốc và chất lượng green bean.</p>
+							</div>
+						</div>
+						<div class="cofee-build__item">
+							<div class="cofee-build__card card-build-cofee">
+								<img src="img/icons/ic-build-cofee-4.svg" alt="image">
+								<h5 class="card-build-cofee__title">Pha chế</h5>
+								<p class="card-build-cofee__subtitle">Những hạt cà phê được lột xác qua quá trình rang xay kỹ lưỡng và nghiêm ngặt.</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
-			<section class="page__surf surf">
-				<div class="surf__big-txt txt-big-decor">Surf</div>
-				<div class="surf__decor-location _icon-location"></div>
-				<div class="surf__info">
-					<h2 class="surf__title tile-large">Surf</h2>
-					<div class="surf__block-title title-mini-block">
-						<div class="title-mini-block__subtitle subtitle">Current location</div>
-						<h3 class="title-mini-block__title-mini">California <span>|</span> USA</h3>
+			<section class="page__choose-cofee cofee-choose">
+				<div class="cofee-choose__container">
+					<div class="cofee-choose__block-title title-block">
+						<p class="title-block__subtitle">Choose Your Favorite</p>
+						<h2 class="title-block__title">CHUẨN GU ĐÚNG VỊ</h2>
 					</div>
 				</div>
-				<div class="surf__container">
-					<div class="surf__map-ibg">
-						<img src="img/icons/lazyload.png" data-src="img/other/Map-Dots.svg" alt="image maps">
-						<div class="surf__point point point_one">
-							<div class="point__weather-info info-wather">
-								<div class="info-wather__body">
-									<div class="info-wather__title _icon-p-right">Airlie Beach</div>
-									<div class="info-wather__country">Australia</div>
-									<div class="info-wather__row">
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_wafe"></div>
-												<div class="card-wather__numb-info">9 - 13</div>
-												<div class="card-wather__txt-info">Surf (FT)</div>
-											</div>
-										</div>
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_tide"></div>
-												<div class="card-wather__numb-info">+2.3</div>
-												<div class="card-wather__txt-info">Tide (FT)</div>
-											</div>
-										</div>
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_wind"></div>
-												<div class="card-wather__numb-info">4 SE</div>
-												<div class="card-wather__txt-info">Wind (KTS)</div>
-											</div>
-										</div>
+				<div class="cofee-choose__wrapper-content">
+					<div class="cofee-choose__slider">
+						<div class="cofee-choose__swiper">
+							<article class="cofee-choose__slide card-coffe-choose">
+								<div class="card-coffe-choose__img-ibg">
+									<picture><source data-srcset="img/choose-cofee/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/choose-cofee/01.png" loading="lazy" alt="image"></picture>
+									<div class="swiper-lazy-preloader"></div>
+								</div>
+								<div class="card-coffe-choose__info">
+									<div class="card-coffe-choose__price price">99.000</div>
+									<h4 class="card-coffe-choose__title card-product-title">REVO Morning</h4>
+									<p class="card-coffe-choose__subtitle card-product-subtitle">đắng, hậu ngọt, hương hoa </p>
+									<div class="card-coffe-choose__btns-wrapper card-btns-wrapper">
+										<button class="card-coffe-choose__bay card-btn-bay" type="button">MUA NGAY</button>
+										<button class="card-coffe-choose__details-know-btn btn-know-details">CHI TIẾT</button>
 									</div>
 								</div>
-							</div>
-						</div>
-						<div class="surf__point point point_two">
-							<div class="point__weather-info info-wather">
-								<div class="info-wather__body">
-									<div class="info-wather__title _icon-p-right">Malibu Beach</div>
-									<div class="info-wather__country">Australia</div>
-									<div class="info-wather__row">
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_wafe"></div>
-												<div class="card-wather__numb-info">9 - 13</div>
-												<div class="card-wather__txt-info">Surf (FT)</div>
-											</div>
-										</div>
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_tide"></div>
-												<div class="card-wather__numb-info">+2.3</div>
-												<div class="card-wather__txt-info">Tide (FT)</div>
-											</div>
-										</div>
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_wind"></div>
-												<div class="card-wather__numb-info">4 SE</div>
-												<div class="card-wather__txt-info">Wind (KTS)</div>
-											</div>
-										</div>
+							</article>
+							<article class="cofee-choose__slide card-coffe-choose">
+								<div class="card-coffe-choose__img-ibg">
+									<picture><source data-srcset="img/choose-cofee/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/choose-cofee/02.png" loading="lazy" alt="image"></picture>
+									<div class="swiper-lazy-preloader"></div>
+								</div>
+								<div class="card-coffe-choose__info">
+									<div class="card-coffe-choose__price price">85.000</div>
+									<h4 class="card-coffe-choose__title card-product-title">REVO Everyday</h4>
+									<p class="card-coffe-choose__subtitle card-product-subtitle">cân bằng, hậu đắng, vị chocolate </p>
+									<div class="card-coffe-choose__btns-wrapper card-btns-wrapper">
+										<button class="card-coffe-choose__bay card-btn-bay" type="button">MUA NGAY</button>
+										<button class="card-coffe-choose__details-know-btn btn-know-details">CHI TIẾT</button>
 									</div>
 								</div>
-							</div>
-						</div>
-						<div class="surf__point point point_three">
-							<div class="point__weather-info info-wather">
-								<div class="info-wather__body">
-									<div class="info-wather__title _icon-p-right">Cloud Nine</div>
-									<div class="info-wather__country">Australia</div>
-									<div class="info-wather__row">
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_wafe"></div>
-												<div class="card-wather__numb-info">9 - 13</div>
-												<div class="card-wather__txt-info">Surf (FT)</div>
-											</div>
-										</div>
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_tide"></div>
-												<div class="card-wather__numb-info">+2.3</div>
-												<div class="card-wather__txt-info">Tide (FT)</div>
-											</div>
-										</div>
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_wind"></div>
-												<div class="card-wather__numb-info">4 SE</div>
-												<div class="card-wather__txt-info">Wind (KTS)</div>
-											</div>
-										</div>
+							</article>
+							<article class="cofee-choose__slide card-coffe-choose">
+								<div class="card-coffe-choose__img-ibg">
+									<picture><source data-srcset="img/choose-cofee/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/choose-cofee/01.png" loading="lazy" alt="image"></picture>
+									<div class="swiper-lazy-preloader"></div>
+								</div>
+								<div class="card-coffe-choose__info">
+									<div class="card-coffe-choose__price price">99.000</div>
+									<h4 class="card-coffe-choose__title card-product-title">REVO Morning</h4>
+									<p class="card-coffe-choose__subtitle card-product-subtitle">đắng, hậu ngọt, hương hoa </p>
+									<div class="card-coffe-choose__btns-wrapper card-btns-wrapper">
+										<button class="card-coffe-choose__bay card-btn-bay" type="button">MUA NGAY</button>
+										<button class="card-coffe-choose__details-know-btn btn-know-details">CHI TIẾT</button>
 									</div>
 								</div>
-							</div>
-						</div>
-						<div class="surf__point point point_four">
-							<div class="point__weather-info info-wather">
-								<div class="info-wather__body">
-									<div class="info-wather__title _icon-p-right">Vieux Boucau</div>
-									<div class="info-wather__country">Australia</div>
-									<div class="info-wather__row">
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_wafe"></div>
-												<div class="card-wather__numb-info">9 - 13</div>
-												<div class="card-wather__txt-info">Surf (FT)</div>
-											</div>
-										</div>
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_tide"></div>
-												<div class="card-wather__numb-info">+2.3</div>
-												<div class="card-wather__txt-info">Tide (FT)</div>
-											</div>
-										</div>
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_wind"></div>
-												<div class="card-wather__numb-info">4 SE</div>
-												<div class="card-wather__txt-info">Wind (KTS)</div>
-											</div>
-										</div>
+							</article>
+							<article class="cofee-choose__slide card-coffe-choose">
+								<div class="card-coffe-choose__img-ibg">
+									<picture><source data-srcset="img/choose-cofee/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/choose-cofee/02.png" loading="lazy" alt="image"></picture>
+									<div class="swiper-lazy-preloader"></div>
+								</div>
+								<div class="card-coffe-choose__info">
+									<div class="card-coffe-choose__price price">85.000</div>
+									<h4 class="card-coffe-choose__title card-product-title">REVO Everyday</h4>
+									<p class="card-coffe-choose__subtitle card-product-subtitle">cân bằng, hậu đắng, vị chocolate </p>
+									<div class="card-coffe-choose__btns-wrapper card-btns-wrapper">
+										<button class="card-coffe-choose__bay card-btn-bay" type="button">MUA NGAY</button>
+										<button class="card-coffe-choose__details-know-btn btn-know-details">CHI TIẾT</button>
 									</div>
 								</div>
-							</div>
-						</div>
-						<div class="surf__point point point_five">
-							<div class="point__weather-info info-wather">
-								<div class="info-wather__body">
-									<div class="info-wather__title _icon-p-right">Vieux Boucau</div>
-									<div class="info-wather__country">Australia</div>
-									<div class="info-wather__row">
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_wafe"></div>
-												<div class="card-wather__numb-info">9 - 13</div>
-												<div class="card-wather__txt-info">Surf (FT)</div>
-											</div>
-										</div>
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_tide"></div>
-												<div class="card-wather__numb-info">+2.3</div>
-												<div class="card-wather__txt-info">Tide (FT)</div>
-											</div>
-										</div>
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_wind"></div>
-												<div class="card-wather__numb-info">4 SE</div>
-												<div class="card-wather__txt-info">Wind (KTS)</div>
-											</div>
-										</div>
+							</article>
+							<article class="cofee-choose__slide card-coffe-choose">
+								<div class="card-coffe-choose__img-ibg">
+									<picture><source data-srcset="img/choose-cofee/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/choose-cofee/03.png" loading="lazy" alt="image"></picture>
+									<div class="swiper-lazy-preloader"></div>
+								</div>
+								<div class="card-coffe-choose__info">
+									<div class="card-coffe-choose__price price">139.000</div>
+									<h4 class="card-coffe-choose__title card-product-title">REVO Origin</h4>
+									<p class="card-coffe-choose__subtitle card-product-subtitle">hậu ngọt, ít đắng, vị chua dâu</p>
+									<div class="card-coffe-choose__btns-wrapper card-btns-wrapper">
+										<button class="card-coffe-choose__bay card-btn-bay" type="button">MUA NGAY</button>
+										<button class="card-coffe-choose__details-know-btn btn-know-details">CHI TIẾT</button>
 									</div>
 								</div>
-							</div>
-						</div>
-						<div class="surf__point point point_six">
-							<div class="point__weather-info info-wather">
-								<div class="info-wather__body">
-									<div class="info-wather__title _icon-p-right">Vieux Boucau</div>
-									<div class="info-wather__country">Australia</div>
-									<div class="info-wather__row">
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_wafe"></div>
-												<div class="card-wather__numb-info">9 - 13</div>
-												<div class="card-wather__txt-info">Surf (FT)</div>
-											</div>
-										</div>
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_tide"></div>
-												<div class="card-wather__numb-info">+2.3</div>
-												<div class="card-wather__txt-info">Tide (FT)</div>
-											</div>
-										</div>
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_wind"></div>
-												<div class="card-wather__numb-info">4 SE</div>
-												<div class="card-wather__txt-info">Wind (KTS)</div>
-											</div>
-										</div>
+							</article>
+							<article class="cofee-choose__slide card-coffe-choose">
+								<div class="card-coffe-choose__img-ibg">
+									<picture><source data-srcset="img/choose-cofee/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/choose-cofee/04.png" loading="lazy" alt="image"></picture>
+									<div class="swiper-lazy-preloader"></div>
+								</div>
+								<div class="card-coffe-choose__info">
+									<div class="card-coffe-choose__price price">75.000</div>
+									<h4 class="card-coffe-choose__title card-product-title">REVO Đậm Đà</h4>
+									<p class="card-coffe-choose__subtitle card-product-subtitle">đậm đà, đắng, truyền thống</p>
+									<div class="card-coffe-choose__btns-wrapper card-btns-wrapper">
+										<button class="card-coffe-choose__bay card-btn-bay" type="button">MUA NGAY</button>
+										<button class="card-coffe-choose__details-know-btn btn-know-details">CHI TIẾT</button>
 									</div>
 								</div>
-							</div>
-						</div>
-						<div class="surf__point point point_seven">
-							<div class="point__weather-info info-wather">
-								<div class="info-wather__body">
-									<div class="info-wather__title _icon-p-right">Vieux Boucau</div>
-									<div class="info-wather__country">Australia</div>
-									<div class="info-wather__row">
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_wafe"></div>
-												<div class="card-wather__numb-info">9 - 13</div>
-												<div class="card-wather__txt-info">Surf (FT)</div>
-											</div>
-										</div>
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_tide"></div>
-												<div class="card-wather__numb-info">+2.3</div>
-												<div class="card-wather__txt-info">Tide (FT)</div>
-											</div>
-										</div>
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_wind"></div>
-												<div class="card-wather__numb-info">4 SE</div>
-												<div class="card-wather__txt-info">Wind (KTS)</div>
-											</div>
-										</div>
+							</article>
+							<article class="cofee-choose__slide card-coffe-choose">
+								<div class="card-coffe-choose__img-ibg">
+									<picture><source data-srcset="img/choose-cofee/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/choose-cofee/03.png" loading="lazy" alt="image"></picture>
+									<div class="swiper-lazy-preloader"></div>
+								</div>
+								<div class="card-coffe-choose__info">
+									<div class="card-coffe-choose__price price">139.000</div>
+									<h4 class="card-coffe-choose__title card-product-title">REVO Origin</h4>
+									<p class="card-coffe-choose__subtitle card-product-subtitle">hậu ngọt, ít đắng, vị chua dâu</p>
+									<div class="card-coffe-choose__btns-wrapper card-btns-wrapper">
+										<button class="card-coffe-choose__bay card-btn-bay" type="button">MUA NGAY</button>
+										<button class="card-coffe-choose__details-know-btn btn-know-details">CHI TIẾT</button>
 									</div>
 								</div>
-							</div>
-						</div>
-						<div class="surf__point point point_eight">
-							<div class="point__weather-info info-wather">
-								<div class="info-wather__body">
-									<div class="info-wather__title _icon-p-right">Vieux Boucau</div>
-									<div class="info-wather__country">Australia</div>
-									<div class="info-wather__row">
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_wafe"></div>
-												<div class="card-wather__numb-info">9 - 13</div>
-												<div class="card-wather__txt-info">Surf (FT)</div>
-											</div>
-										</div>
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_tide"></div>
-												<div class="card-wather__numb-info">+2.3</div>
-												<div class="card-wather__txt-info">Tide (FT)</div>
-											</div>
-										</div>
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_wind"></div>
-												<div class="card-wather__numb-info">4 SE</div>
-												<div class="card-wather__txt-info">Wind (KTS)</div>
-											</div>
-										</div>
+							</article>
+							<article class="cofee-choose__slide card-coffe-choose">
+								<div class="card-coffe-choose__img-ibg">
+									<picture><source data-srcset="img/choose-cofee/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/choose-cofee/04.png" loading="lazy" alt="image"></picture>
+									<div class="swiper-lazy-preloader"></div>
+								</div>
+								<div class="card-coffe-choose__info">
+									<div class="card-coffe-choose__price price">75.000</div>
+									<h4 class="card-coffe-choose__title card-product-title">REVO Đậm Đà</h4>
+									<p class="card-coffe-choose__subtitle card-product-subtitle">đậm đà, đắng, truyền thống</p>
+									<div class="card-coffe-choose__btns-wrapper card-btns-wrapper">
+										<button class="card-coffe-choose__bay card-btn-bay" type="button">MUA NGAY</button>
+										<button class="card-coffe-choose__details-know-btn btn-know-details">CHI TIẾT</button>
 									</div>
 								</div>
-							</div>
+							</article>
 						</div>
-						<div class="surf__point point point_nine">
-							<div class="point__weather-info info-wather">
-								<div class="info-wather__body">
-									<div class="info-wather__title _icon-p-right">Airlie Beachu</div>
-									<div class="info-wather__country">Australia</div>
-									<div class="info-wather__row">
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_wafe"></div>
-												<div class="card-wather__numb-info">9 - 13</div>
-												<div class="card-wather__txt-info">Surf (FT)</div>
-											</div>
-										</div>
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_tide"></div>
-												<div class="card-wather__numb-info">+2.3</div>
-												<div class="card-wather__txt-info">Tide (FT)</div>
-											</div>
-										</div>
-										<div class="info-wather__item">
-											<div class="info-wather__card card-wather">
-												<div class="card-wather__icon card-wather__icon_wind"></div>
-												<div class="card-wather__numb-info">4 SE</div>
-												<div class="card-wather__txt-info">Wind (KTS)</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="surf__coordinates">34.0501 N -118.2446 W</div>
-					<div class="surf__slider-navigation navigation-swiper">
-						<button class="surf__btn-prev-slide navigation-swiper__prev _icon-p-left" aria-label="prev slide"></button>
-						<button class="surf__btn-next-slide navigation-swiper__next _icon-p-right" aria-label="next slide"></button>
-					</div>
-				</div>
-				<div class="surf__slider">
-					<div class="surf__swiper">
-						<article class="surf__slide-ibg slide-surf">
-							<picture><source data-srcset="img/slider/surf-slider/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  src="img/icons/lazyload.png" data-src="img/slider/surf-slider/01.jpg" loading="lazy" alt="surf image"></picture>
-							<div class="slide-surf__name-location">California <span>|</span> USA</div>
-							<div class="slide-surf__info-slide">
-								<div class="slide-surf__title title-mini-block">
-									<h3 class="title-mini-block__title-mini">Malibu Beach</h3>
-								</div>
-								<button type="button" class="slide-surf__btn btn-action">View- <span class="_icon-p-right">Surf</span></button>
-							</div>
-							<div class="swiper-lazy-preloader"></div>
-						</article>
-						<article class="surf__slide-ibg slide-surf">
-							<picture><source data-srcset="img/slider/surf-slider/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  src="img/icons/lazyload.png" data-src="img/slider/surf-slider/02.jpg" loading="lazy" alt="surf image"></picture>
-							<div class="slide-surf__name-location">Queensland <span>|</span> Australia</div>
-							<div class="slide-surf__info-slide">
-								<div class="slide-surf__title title-mini-block">
-									<h3 class="title-mini-block__title-mini">Airlie Beach</h3>
-								</div>
-								<button type="button" class="slide-surf__btn btn-action">View- <span class="_icon-p-right">Surf</span></button>
-							</div>
-							<div class="swiper-lazy-preloader"></div>
-						</article>
-						<article class="surf__slide-ibg slide-surf">
-							<picture><source data-srcset="img/slider/surf-slider/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  src="img/icons/lazyload.png" data-src="img/slider/surf-slider/03.jpg" loading="lazy" alt="surf image"></picture>
-							<div class="slide-surf__name-location">Siargao <span>|</span> Philippines</div>
-							<div class="slide-surf__info-slide">
-								<div class="slide-surf__title title-mini-block">
-									<h3 class="title-mini-block__title-mini">Cloud Nine</h3>
-								</div>
-								<button type="button" class="slide-surf__btn btn-action">View- <span class="_icon-p-right">Surf</span></button>
-							</div>
-							<div class="swiper-lazy-preloader"></div>
-						</article>
-						<article class="surf__slide-ibg slide-surf">
-							<picture><source data-srcset="img/slider/surf-slider/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  src="img/icons/lazyload.png" data-src="img/slider/surf-slider/04.jpg" loading="lazy" alt="surf image"></picture>
-							<div class="slide-surf__name-location">Hossegor <span>|</span> France</div>
-							<div class="slide-surf__info-slide">
-								<div class="slide-surf__title title-mini-block">
-									<h3 class="title-mini-block__title-mini">Vieux Boucau</h3>
-								</div>
-								<button type="button" class="slide-surf__btn btn-action">View- <span class="_icon-p-right">Surf</span></button>
-							</div>
-							<div class="swiper-lazy-preloader"></div>
-						</article>
-						<article class="surf__slide-ibg slide-surf">
-							<picture><source data-srcset="img/slider/surf-slider/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  src="img/icons/lazyload.png" data-src="img/slider/surf-slider/01.jpg" loading="lazy" alt="surf image"></picture>
-							<div class="slide-surf__name-location">California <span>|</span> USA</div>
-							<div class="slide-surf__info-slide">
-								<div class="slide-surf__title title-mini-block">
-									<h3 class="title-mini-block__title-mini">Malibu Beach</h3>
-								</div>
-								<button type="button" class="slide-surf__btn btn-action">View- <span class="_icon-p-right">Surf</span></button>
-							</div>
-							<div class="swiper-lazy-preloader"></div>
-						</article>
+						<button type="button" class="cofee-choose__btn-next-slide next-slide-btn _icon-arrow" aria-label="button next slide"></button>
 					</div>
 				</div>
 			</section>
-			<section class="page__travel buy-ticket">
-				<div data-watch data-watch-once class="buy-ticket__decor-ibg buy-ticket__decor-ibg_avia">
-					<picture><source data-srcset="img/other/avia-decor.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  src="img/icons/lazyload.png" data-src="img/other/avia-decor.png" alt="decor image"></picture>
-				</div>
-				<div class="buy-ticket__wrapper-title">
-					<h2 class="buy-ticket__title tile-large">Travel</h2>
-					<div class="buy-ticket__big-txt txt-big-decor">Travel</div>
-				</div>
-				<div class="buy-ticket__slider">
-					<div class="buy-ticket__swiper">
-						<div class="buy-ticket__slide slide-buy-ticket">
-							<div class="slide-buy-ticket__wrapper-info">
-								<div class="slide-buy-ticket__img-ibg">
-									<picture><source srcset="img/slider/travel-slider/01.webp" type="image/webp"><img src="img/slider/travel-slider/01.png" loading="lazy" alt="image"></picture>
-								</div>
-								<div class="swiper-lazy-preloader"></div>
-								<div class="slide-buy-ticket__block-title title-mini-block">
-									<div class="title-mini-block__subtitle subtitle">Shore</div>
-									<h3 class="title-mini-block__title-mini">Airlie Beach <span>|</span> Australia</h3>
-								</div>
-								<div class="slide-buy-ticket__wrapper-info-avia">
-									<div class="slide-buy-ticket__info-airline title-mini-block">
-										<div class="title-mini-block__subtitle subtitle">Airline</div>
-										<h3 class="title-mini-block__title-mini">Virgin Australia</h3>
-									</div>
-									<div class="slide-buy-ticket__logo-avia-company">
-										<img src="img/icons/lazyload.png" data-src="img/icons/logo-avia.svg" alt="logotype avia company">
-									</div>
-								</div>
-							</div>
-							<div class="slide-buy-ticket__info-ticket-row row-info-ticket">
-								<div class="row-info-ticket__item">
-									<h4 class="row-info-ticket__title">Queensland Australia</h4>
-									<p class="row-info-ticket__subtitle">Destination</p>
-								</div>
-								<div class="row-info-ticket__item">
-									<h4 class="row-info-ticket__title">7,065 Miles</h4>
-									<p class="row-info-ticket__subtitle">Distance</p>
-								</div>
-								<div class="row-info-ticket__item">
-									<h4 class="row-info-ticket__title">23 Hours 5 Minutes</h4>
-									<p class="row-info-ticket__subtitle">Travel Time</p>
-								</div>
-								<div class="row-info-ticket__item">
-									<h4 class="row-info-ticket__title">$1,976 USD</h4>
-									<p class="row-info-ticket__subtitle">Pricing</p>
-									<p class="row-info-ticket__txt">Round Trip</p>
-								</div>
-							</div>
-							<button type="button" class="slide-buy-ticket__btn btn-action">Book-<span class="_icon-p-right">Flight</span></button>
-						</div>
-
-						<div class="buy-ticket__slide slide-buy-ticket">
-							<div class="slide-buy-ticket__wrapper-info">
-								<div class="slide-buy-ticket__img-ibg">
-									<picture><source srcset="img/slider/travel-slider/02.webp" type="image/webp"><img src="img/slider/travel-slider/02.png" loading="lazy" alt="image"></picture>
-								</div>
-								<div class="swiper-lazy-preloader"></div>
-								<div class="slide-buy-ticket__block-title title-mini-block">
-									<div class="title-mini-block__subtitle subtitle">Shore</div>
-									<h3 class="title-mini-block__title-mini">Airlie Beach <span>|</span> Australia</h3>
-								</div>
-								<div class="slide-buy-ticket__wrapper-info-avia">
-									<div class="slide-buy-ticket__info-airline title-mini-block">
-										<div class="title-mini-block__subtitle subtitle">Airline</div>
-										<h3 class="title-mini-block__title-mini">Virgin Australia</h3>
-									</div>
-									<div class="slide-buy-ticket__logo-avia-company">
-										<img src="img/icons/lazyload.png" data-src="img/icons/logo-avia.svg" alt="logotype avia company">
-									</div>
-								</div>
-							</div>
-							<div class="slide-buy-ticket__info-ticket-row row-info-ticket">
-								<div class="row-info-ticket__item">
-									<h4 class="row-info-ticket__title">Queensland Australia</h4>
-									<p class="row-info-ticket__subtitle">Destination</p>
-								</div>
-								<div class="row-info-ticket__item">
-									<h4 class="row-info-ticket__title">7,065 Miles</h4>
-									<p class="row-info-ticket__subtitle">Distance</p>
-								</div>
-								<div class="row-info-ticket__item">
-									<h4 class="row-info-ticket__title">23 Hours 5 Minutes</h4>
-									<p class="row-info-ticket__subtitle">Travel Time</p>
-								</div>
-								<div class="row-info-ticket__item">
-									<h4 class="row-info-ticket__title">$1,976 USD</h4>
-									<p class="row-info-ticket__subtitle">Pricing</p>
-									<p class="row-info-ticket__txt">Round Trip</p>
-								</div>
-							</div>
-							<button type="button" class="slide-buy-ticket__btn btn-action">Book-<span class="_icon-p-right">Flight</span></button>
-						</div>
+			<section class="page__tabs tabs-page">
+				<div class="tabs-page__container">
+					<div class="tabs-page__block-title title-block">
+						<p class="title-block__subtitle">Best Gift For Best Friend</p>
+						<h2 class="title-block__title">GIFTSET</h2>
 					</div>
-					<div class="buy-ticket__slider-navigation navigation-swiper">
-						<button class="buy-ticket__btn-prev-slide navigation-swiper__prev _icon-p-left" aria-label="prev slide"></button>
-						<button class="buy-ticket__btn-next-slide navigation-swiper__next _icon-p-right" aria-label="next slide"></button>
-					</div>
-				</div>
-				<div class="buy-ticket__bottom-decor-ibg buy-ticket__bottom-decor-ibg_coctail">
-					<picture><source data-srcset="img/other/cocktail-decor.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  src="img/icons/lazyload.png" data-src="img/other/cocktail-decor.png" alt="img decor"></picture>
-				</div>
-			</section>
-			<section class="page__sleep buy-ticket">
-				<div class="buy-ticket__decor-ibg buy-ticket__decor-ibg_hammak">
-					<picture><source srcset="img/other/Hammock.webp" type="image/webp"><img src="img/other/Hammock.png" alt="decor image"></picture>
-				</div>
-				<div class="buy-ticket__wrapper-title">
-					<h2 class="buy-ticket__title tile-large">sleep</h2>
-					<div class="buy-ticket__big-txt txt-big-decor">sleep</div>
-				</div>
-				<div class="buy-ticket__slider">
-					<div class="buy-ticket__swiper">
-						<div class="buy-ticket__slide slide-buy-ticket">
-							<div class="slide-buy-ticket__wrapper-info">
-								<div class="slide-buy-ticket__img-ibg">
-									<picture><source srcset="img/slider/travel-slider/01.webp" type="image/webp"><img src="img/slider/travel-slider/01.png" loading="lazy" alt="image"></picture>
-								</div>
-								<div class="swiper-lazy-preloader"></div>
-								<div class="slide-buy-ticket__block-title title-mini-block">
-									<div class="title-mini-block__subtitle subtitle">Resorts</div>
-									<h3 class="title-mini-block__title-mini">Auberge <span>|</span> Australia</h3>
-								</div>
-								<div class="slide-buy-ticket__wrapper-info-avia">
-									<div class="slide-buy-ticket__info-airline title-mini-block">
-										<div class="title-mini-block__subtitle subtitle">Rating</div>
-										<h3 class="title-mini-block__title-mini">Excellent</h3>
-									</div>
-
-									<div class="slide-buy-ticket__rating rating rating_set">
-										<div class="rating__body">
-											<div class="rating__active"></div>
-											<div class="rating__items">
-												<input type="radio" class="rating__item" value="1" name="rating">
-												<input type="radio" class="rating__item" value="2" name="rating">
-												<input type="radio" class="rating__item" value="3" name="rating">
-												<input type="radio" class="rating__item" value="4" name="rating">
-												<input type="radio" class="rating__item" value="5" name="rating">
-											</div>
-										</div>
-										<div class="rating__value">3.6</div>
-									</div>
-								</div>
-							</div>
-							<div class="slide-buy-ticket__info-ticket-row row-info-ticket">
-								<div class="row-info-ticket__item">
-									<h4 class="row-info-ticket__title">Auberge Australia</h4>
-									<p class="row-info-ticket__subtitle">Resort</p>
-								</div>
-								<div class="row-info-ticket__item">
-									<div class="row-info-ticket__input-quantity">
-										<input autocomplete="off" type="text" name="form[]" value="1"><span>Nights</span>
-									</div>
-									<p class="row-info-ticket__subtitle"># of Nights</p>
-									<div class="row-info-ticket__quantity quantity">
-										<button type="button" class="quantity__button quantity__button_minus"></button>
-										<button type="button" class="quantity__button quantity__button_plus"></button>
-									</div>
-								</div>
-								<div class="row-info-ticket__item">
-									<div class="row-info-ticket__input-quantity">
-										<input autocomplete="off" type="text" name="form[]" value="1"><span>Guests</span>
-									</div>
-									<div class="row-info-ticket__quantity quantity">
-										<button type="button" class="quantity__button quantity__button_minus"></button>
-										<button type="button" class="quantity__button quantity__button_plus"></button>
-									</div>
-									<p class="row-info-ticket__subtitle"># of Guests</p>
-								</div>
-								<div class="row-info-ticket__item">
-									<h4 class="row-info-ticket__title">$349 USD</h4>
-									<p class="row-info-ticket__subtitle">Pricing</p>
-									<p class="row-info-ticket__txt">Per Night</p>
-								</div>
-							</div>
-							<button type="button" class="slide-buy-ticket__btn btn-action">Book-<span class="_icon-p-right">Stay</span></button>
-						</div>
-
-						<div class="buy-ticket__slide slide-buy-ticket">
-							<div class="slide-buy-ticket__wrapper-info">
-								<div class="slide-buy-ticket__img-ibg">
-									<picture><source srcset="img/slider/travel-slider/02.webp" type="image/webp"><img src="img/slider/travel-slider/02.png" loading="lazy" alt="image"></picture>
-								</div>
-								<div class="swiper-lazy-preloader"></div>
-								<div class="slide-buy-ticket__block-title title-mini-block">
-									<div class="title-mini-block__subtitle subtitle">Shore</div>
-									<h3 class="title-mini-block__title-mini">Airlie Beach <span>|</span> Australia</h3>
-								</div>
-								<div class="slide-buy-ticket__wrapper-info-avia">
-									<div class="slide-buy-ticket__info-airline title-mini-block">
-										<div class="title-mini-block__subtitle subtitle">Airline</div>
-										<h3 class="title-mini-block__title-mini">Virgin Australia</h3>
-									</div>
-									<div class="slide-buy-ticket__logo-avia-company">
-										<img src="img/icons/lazyload.png" data-src="img/icons/logo-avia.svg" alt="logotype avia company">
-									</div>
-								</div>
-							</div>
-							<div class="slide-buy-ticket__info-ticket-row row-info-ticket">
-								<div class="row-info-ticket__item">
-									<h4 class="row-info-ticket__title">Queensland Australia</h4>
-									<p class="row-info-ticket__subtitle">Destination</p>
-								</div>
-								<div class="row-info-ticket__item">
-									<h4 class="row-info-ticket__title">7,065 Miles</h4>
-									<p class="row-info-ticket__subtitle">Distance</p>
-								</div>
-								<div class="row-info-ticket__item">
-									<h4 class="row-info-ticket__title">23 Hours 5 Minutes</h4>
-									<p class="row-info-ticket__subtitle">Travel Time</p>
-								</div>
-								<div class="row-info-ticket__item">
-									<h4 class="row-info-ticket__title">$1,976 USD</h4>
-									<p class="row-info-ticket__subtitle">Pricing</p>
-									<p class="row-info-ticket__txt">Round Trip</p>
-								</div>
-							</div>
-							<button type="button" class="slide-buy-ticket__btn btn-action">Book-<span class="_icon-p-right">Flight</span></button>
-						</div>
-					</div>
-					<div class="buy-ticket__slider-navigation navigation-swiper">
-						<button class="buy-ticket__btn-prev-slide navigation-swiper__prev _icon-p-left" aria-label="prev slide"></button>
-						<button class="buy-ticket__btn-next-slide navigation-swiper__next _icon-p-right" aria-label="next slide"></button>
-					</div>
-				</div>
-				<div class="buy-ticket__bottom-decor-ibg buy-ticket__bottom-decor-ibg_flowers-one">
-					<picture><source data-srcset="img/other/Frangipani-one.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  src="img/icons/lazyload.png" data-src="img/other/Frangipani-one.png" alt="img decor"></picture>
-				</div>
-				<div class="buy-ticket__bottom-decor-ibg buy-ticket__bottom-decor-ibg_flowers-two">
-					<picture><source data-srcset="img/other/Frangipani-two.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  src="img/icons/lazyload.png" data-src="img/other/Frangipani-two.png" alt="img decor"></picture>
-				</div>
-			</section>
-			<section class="page__shop shop">
-				<div class="shop__wrapper-title">
-					<h2 class="shop__title tile-large">shop</h2>
-					<div class="shop__big-txt txt-big-decor">Shop</div>
-				</div>
-				<div class="shop__container">
-					<div class="shop__slider">
-						<div class="shop__swiper">
-							<div class="shop__slide slide-shop">
-								<div class="slide-shop__info-product info-product">
-									<div class="info-product__subtitle subtitle">Style</div>
-									<h3 class="info-product__title">North Nugget TT Surfboard</h3>
-									<div class="info-product__rating rating rating_set">
-										<div class="rating__body">
-											<div class="rating__active"></div>
-											<div class="rating__items">
-												<input type="radio" class="rating__item" value="1" name="rating">
-												<input type="radio" class="rating__item" value="2" name="rating">
-												<input type="radio" class="rating__item" value="3" name="rating">
-												<input type="radio" class="rating__item" value="4" name="rating">
-												<input type="radio" class="rating__item" value="5" name="rating">
-											</div>
-										</div>
-										<div class="rating__value">3.6</div>
-									</div>
-									<div class="info-product__price-wrapper">
-										<div class="info-product__big-price">$799</div>
-										<div class="info-product__small-price">99</div>
-									</div>
-									<button type="button" class="info-product__btn btn-action">Drop-<span class="_icon-p-right">in</span></button>
-								</div>
-
-								<div class="slide-shop__img-ibg img-product">
-									<picture><source data-srcset="img/other/Surfboard.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/other/Surfboard.png" loading="lazy" alt="image product"></picture>
-									<div class="img-product__info-point img-product__info-point_one"><span>Double Concave with Vee Shape low point</span></div>
-									<div class="img-product__info-point img-product__info-point_two"><span>Double Concave low point</span></div>
-									<div class="img-product__info-point img-product__info-point_three"><span>Double Concave low point</span></div>
-								</div>
-
-								<div class="slide-shop__extras extras">
-									<div class="extras__row">
-										<div class="extras__caption">Extras</div>
-										<div class="extras__item">
-											<div class="extras__card card-extras">
-												<div class="card-extras__img card-extras__img_left">
-													<picture><source srcset="img/other/Wax.webp" type="image/webp"><img src="img/other/Wax.png" alt="img"></picture>
+					<div data-tabs class="tabs">
+						<nav data-tabs-titles class="tabs__navigation">
+							<button type="submit" class="tabs__title _tab-active">1</button>
+							<button type="submit" class="tabs__title">2</button>
+							<button type="submit" class="tabs__title">3</button>
+						</nav>
+						<div data-tabs-body class="tabs__content">
+							<div class="tabs__body">
+								<div class="tabs__wrapper">
+									<div class="tabs__image-ibg"><picture><source data-srcset="img/other/tabs-img.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  src="img/icons/lazyload.png" data-src="img/other/tabs-img.png" alt="image"></picture></div>
+									<div class="tabs__card card-tab">
+										<div class="card-tab__price price">285.000</div>
+										<h4 class="card-tab__title card-product-title">Giftset "Cà phê phin Việt Nam"</h4>
+										<p class="card-tab__subtitle card-product-subtitle">Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê được Revo cẩn trọng chọn lựa, rang xay theo công nghệ và bí quyết học hỏi từ những nghệ nhân nổi tiếng, cùng với tình yêu, sự đam mê của người làm cà phê… tạo ra những tách cà phê tinh khiết chỉ dành riêng cho bạn.</p>
+										<div class="card-tab__cofee-beans-info info-beans">
+											<div class="info-beans__item _icon-grain">
+												<div class="info-beans__wrapper-txt">
+													<div class="info-beans__txt-mini">Loại hạt</div>
+													<div class="info-beans__txt-big">Fine Robusta Blend</div>
 												</div>
-												<p class="card-extras__decript">Sex Wax</p>
-												<div class="card-extras__pricr">$24.99</div>
+											</div>
+											<div class="info-beans__item _icon-mountains">
+												<div class="info-beans__wrapper-txt">
+													<div class="info-beans__txt-mini">Độ cao</div>
+													<div class="info-beans__txt-big">700 - 800m</div>
+												</div>
 											</div>
 										</div>
-										<div class="extras__item">
-											<div class="extras__card card-extras">
-												<div class="card-extras__img card-extras__img_right">
-													<picture><source srcset="img/other/Bracelet.webp" type="image/webp"><img src="img/other/Bracelet.png" alt="img"></picture>
+										<div class="card-tab__btns-wrapper card-btns-wrapper">
+											<button class="card-tab__bay card-btn-bay" type="button">MUA NGAY</button>
+											<button class="card-tab__details-know-btn btn-know-details">CHI TIẾT</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__body">
+								<div class="tabs__wrapper">
+									<div class="tabs__image-ibg"><picture><source data-srcset="img/other/tabs-img.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  src="img/icons/lazyload.png" data-src="img/other/tabs-img.png" alt="image"></picture></div>
+									<div class="tabs__card card-tab">
+										<div class="card-tab__price price">285.000</div>
+										<h4 class="card-tab__title card-product-title">Giftset "Cà phê phin Việt Nam"</h4>
+										<p class="card-tab__subtitle card-product-subtitle">Món quà hỏi từ những nghệ nhân nổi tiếng, cùng với tình yêu, sự đam mê của người làm cà phê… tạo ra những tách cà phê tinh khiết chỉ dành riêng cho bạn.</p>
+										<div class="card-tab__cofee-beans-info info-beans">
+											<div class="info-beans__item _icon-grain">
+												<div class="info-beans__wrapper-txt">
+													<div class="info-beans__txt-mini">Loại hạt</div>
+													<div class="info-beans__txt-big">Fine Robusta Blend</div>
 												</div>
-												<p class="card-extras__decript">Pura Vida</p>
-												<div class="card-extras__pricr">$27.99</div>
 											</div>
+											<div class="info-beans__item _icon-mountains">
+												<div class="info-beans__wrapper-txt">
+													<div class="info-beans__txt-mini">Độ cao</div>
+													<div class="info-beans__txt-big">700 - 800m</div>
+												</div>
+											</div>
+										</div>
+										<div class="card-tab__btns-wrapper card-btns-wrapper">
+											<button class="card-tab__bay card-btn-bay" type="button">MUA NGAY</button>
+											<button class="card-tab__details-know-btn btn-know-details">CHI TIẾT</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__body">
+								<div class="tabs__wrapper">
+									<div class="tabs__image-ibg"><picture><source data-srcset="img/other/tabs-img.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  src="img/icons/lazyload.png" data-src="img/other/tabs-img.png" alt="image"></picture></div>
+									<div class="tabs__card card-tab">
+										<div class="card-tab__price price">285.000</div>
+										<h4 class="card-tab__title card-product-title">Giftset "Cà phê phin Việt Nam"</h4>
+										<p class="card-tab__subtitle card-product-subtitle">M mê của người làm cà phê… tạo ra nhỉ dành riêng cho bạn phê… phê… tạo ra nhỉ dành riêng cho bạn phê… tạo ra nhỉ dành riêng cho bạn phê… tạo ra nhỉ dành riêng cho bạn phê… tạo ra nhỉ dành riêng cho bạn phê… tạo ra nhỉ dành riêng cho bạn phê… tạo ra nhỉ dành riêng cho bạn phê… tạo ra nhỉ dành riêng cho bạn phê… tạo ra nhỉ dành riêng cho bạnhỉ dành riêng cho bạn.</p>
+										<div class="card-tab__cofee-beans-info info-beans">
+											<div class="info-beans__item _icon-grain">
+												<div class="info-beans__wrapper-txt">
+													<div class="info-beans__txt-mini">Loại hạt</div>
+													<div class="info-beans__txt-big">Fine Robusta Blend</div>
+												</div>
+											</div>
+											<div class="info-beans__item _icon-mountains">
+												<div class="info-beans__wrapper-txt">
+													<div class="info-beans__txt-mini">Độ cao</div>
+													<div class="info-beans__txt-big">700 - 800m</div>
+												</div>
+											</div>
+										</div>
+										<div class="card-tab__btns-wrapper card-btns-wrapper">
+											<button class="card-tab__bay card-btn-bay" type="button">MUA NGAY</button>
+											<button class="card-tab__details-know-btn btn-know-details">CHI TIẾT</button>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__combo combo">
+				<div class="combo__container">
+					<div class="combo__block-title title-block">
+						<p class="title-block__subtitle">Your Personalized Coffee</p>
+						<h2 class="title-block__title">COMBO PHIN PHÊ</h2>
+					</div>
+				</div>
+				<div class="combo__wrapper-content">
+					<div class="combo__slider">
+						<div class="combo__swiper">
+							<article class="combo__slide slide-combo-card">
+								<div class="slide-combo-card__img-ibg">
+									<picture><source data-srcset="img/combo/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/combo/01.png" loading="lazy" alt="image"></picture>
+									<div class="swiper-lazy-preloader"></div>
+								</div>
+								<div class="slide-combo-card__info">
+									<div class="slide-combo-card__wrapper-price">
+										<div class="slide-combo-card__price-new price">147.000</div>
+										<div class="slide-combo-card__price-old">155.000</div>
+									</div>
+									<h4 class="slide-combo-card__title card-product-title">Combo Revo Đậm Đà</h4>
+									<p class="slide-combo-card__subtitle card-product-subtitle">Hàm lượng caffein trong Revo Đậm Đà đủ mạnh để làm bạn tỉnh táo làm việc...</p>
+									<div class="slide-combo-card__btns-wrapper card-btns-wrapper">
+										<button class="slide-combo-card__bay card-btn-bay" type="button">MUA NGAY</button>
+										<button class="slide-combo-card__details-know-btn btn-know-details">CHI TIẾT</button>
+									</div>
+								</div>
+							</article>
+							<article class="combo__slide slide-combo-card">
+								<div class="slide-combo-card__img-ibg">
+									<picture><source data-srcset="img/combo/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/combo/02.png" loading="lazy" alt="image"></picture>
+									<div class="swiper-lazy-preloader"></div>
+								</div>
+								<div class="slide-combo-card__info">
+									<div class="slide-combo-card__wrapper-price">
+										<div class="slide-combo-card__price-new price">156.000</div>
+										<div class="slide-combo-card__price-old">165.000</div>
+									</div>
+									<h4 class="slide-combo-card__title card-product-title">Combo Revo Everyday</h4>
+									<p class="slide-combo-card__subtitle card-product-subtitle">Revo Everyday được phối trộn giữa vị đắng của hạt Robusta và hương thơm...</p>
+									<div class="slide-combo-card__btns-wrapper card-btns-wrapper">
+										<button class="slide-combo-card__bay card-btn-bay" type="button">MUA NGAY</button>
+										<button class="slide-combo-card__details-know-btn btn-know-details">CHI TIẾT</button>
+									</div>
+								</div>
+							</article>
+							<article class="combo__slide slide-combo-card">
+								<div class="slide-combo-card__img-ibg">
+									<picture><source data-srcset="img/combo/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/combo/03.png" loading="lazy" alt="image"></picture>
+									<div class="swiper-lazy-preloader"></div>
+								</div>
+								<div class="slide-combo-card__info">
+									<div class="slide-combo-card__wrapper-price">
+										<div class="slide-combo-card__price-new price">275.000</div>
+										<div class="slide-combo-card__price-old">260.000</div>
+									</div>
+									<h4 class="slide-combo-card__title card-product-title">Combo Revo Honey</h4>
+									<p class="slide-combo-card__subtitle card-product-subtitle">Honey – trong tên gọi Revo Honey đến từ phương pháp chế biến hạt Arabica...</p>
+									<div class="slide-combo-card__btns-wrapper card-btns-wrapper">
+										<button class="slide-combo-card__bay card-btn-bay" type="button">MUA NGAY</button>
+										<button class="slide-combo-card__details-know-btn btn-know-details">CHI TIẾT</button>
+									</div>
+								</div>
+							</article>
+							<article class="combo__slide slide-combo-card">
+								<div class="slide-combo-card__img-ibg">
+									<picture><source data-srcset="img/combo/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/combo/01.png" loading="lazy" alt="image"></picture>
+									<div class="swiper-lazy-preloader"></div>
+								</div>
+								<div class="slide-combo-card__info">
+									<div class="slide-combo-card__wrapper-price">
+										<div class="slide-combo-card__price-new price">147.000</div>
+										<div class="slide-combo-card__price-old">155.000</div>
+									</div>
+									<h4 class="slide-combo-card__title card-product-title">Combo Revo Đậm Đà</h4>
+									<p class="slide-combo-card__subtitle card-product-subtitle">Hàm lượng caffein trong Revo Đậm Đà đủ mạnh để làm bạn tỉnh táo làm việc...</p>
+									<div class="slide-combo-card__btns-wrapper card-btns-wrapper">
+										<button class="slide-combo-card__bay card-btn-bay" type="button">MUA NGAY</button>
+										<button class="slide-combo-card__details-know-btn btn-know-details">CHI TIẾT</button>
+									</div>
+								</div>
+							</article>
+							<article class="combo__slide slide-combo-card">
+								<div class="slide-combo-card__img-ibg">
+									<picture><source data-srcset="img/combo/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/combo/02.png" loading="lazy" alt="image"></picture>
+									<div class="swiper-lazy-preloader"></div>
+								</div>
+								<div class="slide-combo-card__info">
+									<div class="slide-combo-card__wrapper-price">
+										<div class="slide-combo-card__price-new price">156.000</div>
+										<div class="slide-combo-card__price-old">165.000</div>
+									</div>
+									<h4 class="slide-combo-card__title card-product-title">Combo Revo Everyday</h4>
+									<p class="slide-combo-card__subtitle card-product-subtitle">Revo Everyday được phối trộn giữa vị đắng của hạt Robusta và hương thơm...</p>
+									<div class="slide-combo-card__btns-wrapper card-btns-wrapper">
+										<button class="slide-combo-card__bay card-btn-bay" type="button">MUA NGAY</button>
+										<button class="slide-combo-card__details-know-btn btn-know-details">CHI TIẾT</button>
+									</div>
+								</div>
+							</article>
+						</div>
+						<button type="button" class="combo__btn-next-slide next-slide-btn _icon-arrow" aria-label="button next slide"></button>
 					</div>
 				</div>
 			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
-				<div class="footer__content">
-					<button data-goto=".hero" type="button" class="footer__btn btn-action">go- <span>Surf</span></button>
-					<p class="footer__copy">© Go-Surf 2018. All Rights Reserved.</p>
-				</div>
+				<p class="footer__copyright">© Revo Coffee Việt Nam - 2018</p>
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230913120830"></script>
+	<script src="js/app.min.js?_v=20230714152739"></script>
 </body>
 
 </html>
